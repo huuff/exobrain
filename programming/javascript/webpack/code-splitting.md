@@ -43,4 +43,6 @@ module.exports = {
 }
 ```
 
-The keys of `entry` are the names of the bundles that will be generated. Using `[name].js` generates the output dynamically from the entries
+The keys of `entry` are the names of the bundles that will be generated. Using `[name].js` generates the output dynamically from the entries.
+
+To ensure that the code isn't present in both bundles, you'll need the [[commons-chunk-plugin]]
