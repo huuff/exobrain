@@ -14,7 +14,7 @@
   {
     devShell.${system} = mkShell {
       nativeBuildInputs = [
-        emanote.packages.${system}.project
+        emanote.defaultPackage.${system}
       ];
     };
   };
