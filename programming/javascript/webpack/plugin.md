@@ -1,5 +1,5 @@
 # Plugin
-A [[webpack]] **plugin** differs from a [[loader]] in that it runs outside of the normal pipeline of the processing, and thus, have more power over the final [bundle](js-bundler).
+A [[webpack]] **plugin** differs from a [[loader]] in that it runs outside of the normal pipeline of the processing, and thus, have more power over the final [[bundler|bundle]]
 
 ## Usage
 These are setup in `module.exports.plugins` in `webpack.config.js`.

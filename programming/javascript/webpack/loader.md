@@ -1,5 +1,5 @@
 # Loader
-A [[webpack]] **loader** is a tool that preprocesses the files before making the final [bundle](bundler)
+A [[webpack]] **loader** is a tool that preprocesses the files before making the final [[bundler|bundle]]
 
 ## Usage
 These are added under `module.exports.module.rules` in `webpack.config.js`. This takes an array of objects that associate a regexp (`test`) with one or more loaders (`use`). The regex will be run for every filename in the project to decide which loader to apply
