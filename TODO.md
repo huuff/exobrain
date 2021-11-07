@@ -6,3 +6,5 @@
 * `this` in js:
   * Needing to call `bind` and when
   * Difference between the `function` and `arrow` syntax
+* String can be types in typescript
+* Apache vs nginx
