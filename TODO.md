@@ -8,3 +8,4 @@
   * Difference between the `function` and `arrow` syntax
 * String can be types in typescript
 * Apache vs nginx
+* Fix my note on nullable properties in typescript. I think there are no nullable types? Only optional parameters and properties
