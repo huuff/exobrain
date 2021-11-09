@@ -4,4 +4,5 @@
 * [[mouse-button-handling]] is too low-level and inconsistent
 * [[dom-design-mistakes]]
 * [[date]] inconsistencies
+* [[javascript/reference-equality]]
 ==TODO: for-in vs for-of==
