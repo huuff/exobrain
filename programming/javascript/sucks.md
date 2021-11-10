@@ -1,8 +1,10 @@
-# What sucks about Javascript
+# What sucks about [[javascript]]
 
-* [[checking-types]]: Two incompatible ways of doing it that actually just give the wrong result instead of throwing an error. You have to know which type to use, both have completely different semantics and one only works with [[stringly-typed]] types.
 * [[mouse-button-handling]] is too low-level and inconsistent
 * [[dom-design-mistakes]]
-* [[date]] inconsistencies
+* [[date]] inconsistencies between `0` and `1`-indexing
 * [[javascript/reference-equality]]
-==TODO: for-in vs for-of==
+* Very infuriatingly, [[javascript]] seems to have two or more versions of every single built-in feature. Seems like every time a feature needed fixing, they just added a better new one with very similar syntax:
+  * [[checking-types]]: The two are wildly different and you HAVE to know which to use in each case
+  * [[fors]]
+  * [[variable-declaration]]

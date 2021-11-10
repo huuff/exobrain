@@ -26,7 +26,7 @@ variable = 2; // ERROR
 In the example, the value of `variable` cannot be changed after declaration.
 
 ### `var`
-It defines a [[function-scoping|function scoped]] or global, mutable variable. This is the "old way" of doing things, since `let` and `const` appeared in ES2015. Since function scoping can be confusing, its usage is recommended against.
+It defines a [[function-scoping|function scoped]] or global, mutable variable. This is the "old way" of doing things, since `let` and `const` appeared in ES6. Since function scoping can be confusing, its usage is recommended against.
 
 #### Example
 ```js
