@@ -8,3 +8,4 @@
   * [[checking-types]]: The two are wildly different and you HAVE to know which to use in each case
   * [[fors]]
   * [[variable-declaration]]
+* Using [[this]] requires being aware of what it's bound to unlike other languages (Java for example) where it "just werks"
