@@ -3,4 +3,3 @@
 * Write on concatenative inheritance
 * String can be types in typescript
 * Apache vs nginx
-* Note on two-way binding
