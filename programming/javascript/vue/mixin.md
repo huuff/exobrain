@@ -30,7 +30,15 @@ Then, that definition gets automatically merged into that of another component i
 import mixin from './example-mixin.js';
 
 export default {
-  mixins: [ mixin ];
+  mixins: [ mixin ],
+  computed: {
+    tripleCounter() {
+      return this.counter * 3;
+    }
+  }
 };
 </script>
 ```
+
+## Disadvantages
+When we have several different mixins we have no way to know where some variable comes from unless we check them one by one.
