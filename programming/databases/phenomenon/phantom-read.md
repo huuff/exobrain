@@ -18,4 +18,5 @@ sequenceDiagram
   Note left of Bob: post_comment [ (id: 1, post_id: 1), (id: 2, post_id: 1), (id: 3, post_id: 1 ), (id: 4, post_ID: 1)]
 ```
 
-
+## Solutions
+[[2pl]] at the serializable [[isolation-levels|isolation-level]] can prevent it. [[mvvc]] on the other hand might be unable to do it for some database systems.

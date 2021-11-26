@@ -22,3 +22,7 @@ sequenceDiagram
 ```
 
 In the sequence diagram, Alice believes that the post was updated by Bob, but this actually refers to a later version of the post.
+
+## Solutions
+* [[2pl]]: The first transaction might acquire a lock on every read to prevent the second one from updating these records (since both must be updated at the same time, this prevents any update on the set of these records)
+* [[mvvc]]: The first transaction can be aborted upon validating the constraints at commit

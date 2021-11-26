@@ -24,3 +24,7 @@ sequenceDiagram
   Bob->>Database: COMMIT
   Note right of Database: doctor: [ (name: 'Alice', on_call: false), (name: 'Bob', on_call: false), (name: 'Carol', on_call: false)]
 ```
+
+## Solutions
+* [[2pl]]: The first transaction can acquire locks on these records
+* [[mvvc]]: The constraints can be validated at commit for the first transaction, and then abort it.

@@ -16,3 +16,7 @@ sequenceDiagram
   Alice->>Database: ROLLBACK
   Note right of Database: post (id: 1, title: "Transactions")
 ```
+
+## Solutions
+* [[2pl]]: The uncommited rows are protected by write locks which prevent other concurrent transactions from reading these until they are committed.
+* [[mvvc]]: The previous version of the uncommited change can be read instead of it.
