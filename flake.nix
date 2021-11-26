@@ -10,12 +10,18 @@
   let
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
+    emanotePkg = emanote.defaultPackage.${system};
   in with pkgs;
   {
     devShell.${system} = mkShell {
       nativeBuildInputs = [
-        emanote.defaultPackage.${system}
+        emanotePkg
       ];
+    };
+
+    defaultApp.${system} = {
+      type = "app";
+      program = "${emanotePkg}/bin/emanote";
     };
   };
 }
