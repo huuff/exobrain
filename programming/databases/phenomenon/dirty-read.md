@@ -19,4 +19,4 @@ sequenceDiagram
 
 ## Solutions
 * [[2pl]]: The uncommited rows are protected by write locks which prevent other concurrent transactions from reading these until they are committed.
-* [[mvvc]]: The previous version of the uncommited change can be read instead of it.
+* [[mvcc]]: The previous version of the uncommited change can be read instead of it.

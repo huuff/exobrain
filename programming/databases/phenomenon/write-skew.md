@@ -27,4 +27,4 @@ sequenceDiagram
 
 ## Solutions
 * [[2pl]]: The first transaction can acquire locks on these records
-* [[mvvc]]: The constraints can be validated at commit for the first transaction, and then abort it.
+* [[mvcc]]: The constraints can be validated at commit for the first transaction, and then abort it.

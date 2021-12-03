@@ -19,4 +19,4 @@ sequenceDiagram
 ```
 
 ## Solutions
-[[2pl]] at the serializable [[isolation-levels|isolation-level]] can prevent it. [[mvvc]] on the other hand might be unable to do it for some database systems.
+[[2pl]] at the serializable [[isolation-levels|isolation-level]] can prevent it. [[mvcc]] on the other hand might be unable to do it for some database systems.
