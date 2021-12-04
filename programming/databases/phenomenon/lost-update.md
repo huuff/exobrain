@@ -24,4 +24,4 @@ A customer might buy a product without knowing that it has changed in price.
 
 ## Solutions
 * [[2pl]]: Acquiring a lock can prevent the second transaction from updating the records
-* [[mvvc]]: By checking the versions, the phenomenon can be detected at commit for the first transaction and then abort it
+* [[mvcc]]: By checking the versions, the phenomenon can be detected at commit for the first transaction and then abort it
