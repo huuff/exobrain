@@ -1,5 +1,5 @@
 # Cartesian product
-The `FROM` clause produces a cartesian product of the relations listed in it.
+The `FROM` clause produces a cartesian product of the relations listed in it. Instead of separating the relations by commas in the `FROM` clause, it can also be done using `CROSS JOIN`
 
 ### As an iterative process
 The clause

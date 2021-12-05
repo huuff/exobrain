@@ -1,5 +1,5 @@
 # Correlated subquery
-A subquery that uses some attribute from the outer query. Knowing the name of this concept has helped me look for help in google in the past.
+A subquery that uses some attribute from the outer query, this attribute is called the *correlation variable*. Knowing the name of this concept has helped me look for help in google in the past.
 
 ## Example
 ```sql
@@ -12,4 +12,4 @@ WHERE dept_name IN (
 )
 ```
 
-Returns the names of the instructors whose salary is greater than the budget of their department. The correlated attribute is `salary`
+Returns the names of the instructors whose salary is greater than the budget of their department. The correlated variable is `salary`
