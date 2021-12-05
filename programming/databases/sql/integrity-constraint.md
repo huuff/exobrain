@@ -1,5 +1,5 @@
-# Integrity constraints (or `CHECK` clause)
-Can be used in the declaration of an attribute to specify an arbitrary condition that must be satisfied for all tuples. Theoretically (as in, part of the [[sql]] standard), any condition should be valid, even those that imply subqueries. In practice, no database system allows this.
+# Integrity constraint
+The `CHECK` clause can be used in the declaration of an attribute to specify an arbitrary condition that must be satisfied for all tuples. Theoretically (as in, part of the [[sql]] standard), any condition should be valid, even those that imply subqueries. In practice, no database system allows this.
 
 ## Example
 ```sql
