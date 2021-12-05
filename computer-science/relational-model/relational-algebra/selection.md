@@ -30,4 +30,4 @@ The selection $\sigma_{\text{salary} \geq 60000}(\text{instructor})$ returns the
 |2 |Bob |92000 |
 
 ## Misconception, relation to [[sql]]
-Actually, the relational algebra selection operation corresponds to the `WHERE` SQL operator, not to the `SELECT` (which corresponds to projection). This is an unfortunate historical fact.
+Actually, the relational algebra selection operation corresponds to the `WHERE` SQL clause, not to the `SELECT` (which corresponds to projection). This is an unfortunate historical fact.
