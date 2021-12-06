@@ -14,3 +14,6 @@ erDiagram
 
 ### [[diagram-standards|Chen's notation]]
 A diamond represents the relation, with an arrow pointing to the "one" side and a line connected to the "many" side
+
+## Reduction to the [[relational-model]]
+No separate schema is needed for the [[relationship]], instead, the primary key of the entity on the "one" side is added to the schema of the entity at the "many" side, and set as a [[foreign-key]]. If the [[participation]] of the "one" side is partial, the attribute is made nullable.
