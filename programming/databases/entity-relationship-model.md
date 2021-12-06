@@ -4,13 +4,12 @@ An data representation model designed to aid in the design of [[relational-model
 ## Usage
 I fear that these are just a byproduct of the ivory tower of academia and not really used that much in the real world. Heavy data-model design is associated with a previous less agile era of [[bduf]], and maybe in these coming times of microservices designs are not big or permanent enough to warrant its usage (database experts can really embed the design easily into the relational-model without the intermediate entity-relationship step).
 
-However, I think ORM at least draw some of these concepts for their representations, at least [[hibernate]] uses [[entity]]es, and [[mapping-cardinality]], since the impedance mismatch is reduced in the entity-relationship model.
+However, I think ORM at least draw some of these concepts for their representations, at least [[hibernate]] uses [[entity]]es, and [[relationship|relationship cardinality]], since the impedance mismatch is reduced in the entity-relationship model.
 
 ## Concepts
 * [[entity]]
   * [[weak-entity]]
 * [[attribute]]
-* [[mapping-cardinality]]
 * [[relationship]]
 
 ## Mapping to the [[relational-model]]

@@ -12,3 +12,5 @@ erDiagram
     numeric salary
   }
 ```
+
+It's usual that when some entity is repeated across several diagrams, the [[attribute]]s are only shown in the first one and omitted in the subsequent ones.
