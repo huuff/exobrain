@@ -5,5 +5,5 @@ SQL-92 introduces 4 isolation levels depending on which standard [[phenomenon|ph
 
 * Read uncommitted: Only [[dirty-write]]s are prevented.
 * Read committed: Also [[dirty-read]]s are prevented
-* Repeatable read: Also [[non-repeateble-read]] is prevented
+* Repeatable read: Also [[non-repeatable-read]] is prevented
 * Serializable: Also [[phantom-read]] is prevented (See [[serializable]])
