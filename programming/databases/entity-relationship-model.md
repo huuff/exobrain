@@ -1,5 +1,5 @@
 # Entity-Relationship Model
-An data representation model designed to aid in the design of [[relational-model|relational databases]]. It adds some more real-world-compliant structures that might reduce the [[impedance-mismatch]]. An entity-relantionship model also has a convenient corresponding diagram representation which eases the communication of the data model with non-technical staff.
+An data representation model designed to aid in the design of [[relational-model|relational databases]]. It adds some more real-world-compliant structures that might reduce the [[impedance-mismatch]]. An entity-relantionship model also has a convenient corresponding [[diagram-standards|diagrammatic representation]] which eases the communication of the data model with non-technical staff.
 
 ## Usage
 I fear that these are just a byproduct of the ivory tower of academia and not really used that much in the real world. Heavy data-model design is associated with a previous less agile era of [[bduf]], and maybe in these coming times of microservices designs are not big or permanent enough to warrant its usage (database experts can really embed the design easily into the relational-model without the intermediate entity-relationship step).
