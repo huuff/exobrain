@@ -8,7 +8,7 @@ An association between [[entity]]es. Relationships are grouped in *relationship 
 
 ## Types by cardinality
 * [[one-to-one]]
-* [[one-to-many]] or Many-to-one
+* [[one-to-many]]
 * [[many-to-many]]
 
 ## Diagrammatic representation
