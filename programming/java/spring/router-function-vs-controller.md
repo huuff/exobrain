@@ -1,0 +1,2 @@
+# Router Functions vs Controllers
+* When declaring a controller using annotations such as `@GetMapping("<path>")`, `<path>` must be statically known (since it's an annotation argument). Thus we can't have dynamic paths that are calculated at runtime. Might seem unnecessary, but this prevented me from providing static paths to routes from an interface or superclass, as I can't use methods inside the annotation.
