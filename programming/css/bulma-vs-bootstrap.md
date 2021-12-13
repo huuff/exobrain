@@ -1,0 +1,2 @@
+# Bulma > Bootstrap
++ [[bulma]] has nicer semantically-named responsive sices: `mobile`, `tablet`, `desktop`, `widescreen`, `fullhd`. Of course these are not exactly equivalent, but gives a better hint on when they apply, while [[bootstrap]]'s `xs`, `sm`, `lg`, etc. are pretty relative.
