@@ -10,3 +10,4 @@
   * [[variable-declaration]]
 * Using [[this]] requires being aware of what it's bound to unlike other languages (Java for example) where it "just werks"
 * [[nan]]
+* Destructuring and renaming: isn't this backwards? `{ oldName: newName, oldName2: newName2}` feels like creating an object with keys `oldName` and `oldName2` but it's the exact opposite.
