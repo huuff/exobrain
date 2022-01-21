@@ -21,3 +21,5 @@ tags: comparison, tip
 
 ### Prefer `ref` to `reactive`
 I'd say `ref` si the winner simply because it makes it clear when we are using a reactive value.
+
+[Source](https://markus.oberlehner.net/blog/vue-3-composition-api-ref-vs-reactive/)
