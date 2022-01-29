@@ -2,7 +2,7 @@
 tags: caveats
 ---
 
-# If you want narrowing to work, only put a [[type-assertion]] on an `if` condition
+# If you want narrowing to work, only put a [[type-guard]] on an `if` condition
 (This is true as of TypeScript 4.5)
 
 You'd think that if you have a type like
