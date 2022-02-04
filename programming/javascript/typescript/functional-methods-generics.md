@@ -2,7 +2,7 @@
 tags: how-to
 ---
 
-# How to infer a tuple over an array
+# Using functional methods generics to infer a better type
 Usually when you have a stream operation such as
 
 ```ts
