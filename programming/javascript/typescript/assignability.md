@@ -23,3 +23,7 @@ type Q {
   somethingElse: string; // Q can have more properties that aren't in S
 }
 ```
+
+## Through set theory ([[types-as-sets]])
+* It means that a type is assignable to another means that it's a [[subset]] of it
+* That some values are assignable to a type means that they are members of it.
