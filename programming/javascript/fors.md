@@ -32,3 +32,6 @@ for (let x of arr) {
 ```
 
 Prints `1`, `2` and `3`
+
+## Performance differences
+Apparently, `for .. of` is several orders of magnitude faster than `for ... in`. (Source: Item 16 of Effective Typescript)

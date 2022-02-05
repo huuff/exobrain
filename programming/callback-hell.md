@@ -12,5 +12,21 @@ Since these callbacks are asynchronous and thus executed in a different thread (
 
 The usual pattern for handling exceptions is having a first parameter that represents the error produced by the function (as in the `validate` function). This, however, forces us to declare the possibility of an error and propagate it in every function between the one that produces it and the one that can catch and act on it.
 
+### The execution order is obscured
+Consider the following
+
+```js
+function third() {
+  second(() => {
+    first(() => {
+      console.log("first");
+    })
+    console.log("second");
+  })
+  console.log("third");
+}
+```
+This if these functions are asynchronous, it prints `third, second, first`, which is the opposite of the reading order.
+
 ## Solutions
 * [[future|promises]] can improve on this: [[callbacks-vs-promises]]
