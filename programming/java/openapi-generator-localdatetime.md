@@ -33,3 +33,6 @@ Add the following to the `execution` block
   <importMapping>java.time.OffsetDateTime=java.time.LocalDateTime</importMapping>
 </importMappings>
 ```
+
+## A word of warning
+It's possible that you'll need to add the full path, so `java.time.OffsetDateTime` instead of `OffsetDateTime`
