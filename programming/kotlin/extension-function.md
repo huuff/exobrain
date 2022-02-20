@@ -23,5 +23,6 @@ fun String.lastChar(): Char {
 * **They don't clutter the class interface**: It's best that a class declares only the most essential methods in it and all else is done outside to keep them clean (I read in some book about a principle that stated this better, but I forgot where)
 * **They don't allow you to break encapsulation**: Unlike normal methods, they don't allow you to access private fields or methods. It's common knowledge that an external function allows the best encapsulation, extension methods provide this benefit while keeping the benefit of methods.
 * **They provide autocompletion and discoverability**: Just type your object and a dot and find out everything you can do.
+* **They can be declared on nullable types**: So you can handle null values safely on the declaration site rather than at call. For example you could declare an extension `String?.isEmpty()` that returns true either if the string is the empty string (`""`) or if it's `null`. This is not possible with regular methods. This might alleviate the need for the [[null-object-pattern]]
 
 ![[extension-functions-are-resolved-statically]]
