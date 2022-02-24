@@ -26,3 +26,6 @@ fun String.lastChar(): Char {
 * **They can be declared on nullable types**: So you can handle null values safely on the declaration site rather than at call. For example you could declare an extension `String?.isEmpty()` that returns true either if the string is the empty string (`""`) or if it's `null`. This is not possible with regular methods. This might alleviate the need for the [[null-object-pattern]]
 
 ![[extension-functions-are-resolved-statically]]
+
+## Extension functions are just syntactic sugar over static methods
+Easy to see since they are resolved statically. This means that they are against so called "object orientation principles", because they are not extendable by subclassing. However at this point we should really question whether the dogma of "object orientation principles" is really helpful in any way. Precisely, the effort made in preventing anyone from deviate from these is what pushed the need for extension functions.
