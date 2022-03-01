@@ -1,5 +1,11 @@
 # Lambda notation
-In Kotlin, a lambda is always enclosed by braces. Following examples from Kotlin in Action, I'll simplify a lambda as much as possible.
+In Kotlin, a lambda is always enclosed by braces. These are some syntactic featues:
+* The lambda parameter is inside the braces, e.g. `{x -> println(x)}`
+* If the lambda is the last argument in a function, it can be taken out of the parentheses: `call(x, y, { x, y -> x + y})` is equivalent to `call(x, y) { x, y -> x + y}`
+* If the lambda only has one argument, it doesn't need to be declared and is implicitly named as `it`. e.g. `doWith(x) { x -> println(x) }` is equivalent to `doWith(x) { println(it) }`
+
+## Example
+Following examples from Kotlin in Action, I'll simplify a lambda as much as possible.
 
 The following is the most verbose way to find the oldest person in a collection:
 
