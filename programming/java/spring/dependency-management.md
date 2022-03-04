@@ -18,3 +18,11 @@ I don't even remember how it was with Maven, but at least for Gradle, it's prett
 * For [[gradle]] add `ext[<artifactIdentifier>] = <version number>`
 
 Where do you get these `artifactIdentifier` names you say? Really good question. Check [this list](https://docs.spring.io/spring-boot/docs/current/reference/html/dependency-versions.html). And if it's not there? Well, that page says something about reading the plugin source code. Good luck.
+
+## Transitive dependencies on a project that uses `io.spring.dependency-management`
+You have to add the plugins to the dependent project, even if it's not a Spring project
+
+```kotlin
+    id("org.springframework.boot")
+    id("io.spring.dependency-management")
+```
