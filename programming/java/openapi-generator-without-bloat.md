@@ -14,7 +14,9 @@ Set `"apis"` to `"false"` in the global properties, e.g. for [[gradle]]:
 openApiGenerate {
   globalProperties.set(
       mapOf(
-          "apis" to "false"
+        "apis" to "false",
+        "models" to "",
+        "supportingFiles" to "false",
       )
   )
 }
