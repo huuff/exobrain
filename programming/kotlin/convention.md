@@ -7,6 +7,7 @@ Kotlin conventions are specially named methods that can be used with a special s
 * `plusAssign` -> `+=`
 * `get` -> `[]` as in `list[0]`. Note that you can also use several arguments so it's possible to do `object.get(x, y) -> object[x, y]`
 * `component1`, `component2`, ... `componentN` allow destructuring an object into its first `N` components. Standard library's containers allow this up to the first 5 components.
+* `compareTo` -> `>`, `<`, `>=` and `<=`. For example, `x >= y` compiles to `x.compareTo(y) >= 0`
 
 ## Precedence
 The precedence of operators is the same as for the regular ones (PEMDAS?)
