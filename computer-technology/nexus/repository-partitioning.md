@@ -11,7 +11,7 @@ Actually I'm not sure whether this is actually repository partitioning, but the 
 format == "maven2" and path =^ "org/example"
 ```
 
-Which means, a maven artifact whose path starts with `org/example`. ==TODO: So far, this won't work==
+Which means, a maven artifact whose path starts with `org/example`. 
 
 2. Create a privilege, that's associated to that content selector
 
