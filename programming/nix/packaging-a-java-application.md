@@ -1,7 +1,7 @@
-# You can't package a Java application
-Abandon all hope. All solutions are only half-working, you'll be hitting new corner cases every day and you'll never get stuff done, fixing your derivations with every single change
+# Packaging a Java application
+It's mostly impossible. It's real hard to get builds with [[maven]] or [[gradle]] to be really deterministic. There are 2 approaches that I know of:
 
-* Generators: Such as `maven2nix` and `gradle2nix` are usually not updated much and far behind. Even so, they do not work well with your own artifact repositories
-* Double-invoking: Great if you want your builds to take twice as long or even longer.
+* Generators, such as `mvn2nix` and `gradle2nix`. These have a lot of corner cases where they won't work, so if you depend on them you have to be ready to submit pull requests and fixes to their code
+* Double invoking: Consists on making a derivation that builds the project only to get their dependencies and another to actually build it. This means building twice so it's at least twice as slow as anything else (but actually slower). Also stuff will randomly break so be ready for spurious errors.
 
-Even if any works for you temporarily, Gradle does a lot of work to ensure quick build times (which actually slow Nix build times) which makes it less deterministic. You'll find that your builds are not deterministic and have to fix them every time and also every time they take half an hour.
+I think all Gradle packages in [[nixpkgs]] are built by double-invoking, and seems like the most reliable method, though it's slow and not even that reliable. [Here's a source for the technique](https://fzakaria.com/2020/07/20/packaging-a-maven-application-with-nix.html)
