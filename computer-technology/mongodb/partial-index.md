@@ -9,4 +9,4 @@ db.users.ensureIndex({"email": 1}, { "unique": true, "partialFilterExpression": 
 ```
 
 ## Caveat
-Be aware that when a query uses a partial index, those documents that are not in the index will simply not appear in the result set.
+Be aware that when a query uses a partial index, those documents that are not in the index will simply not appear in the result set. If you want to be sure that you receive all results, you have to use a `.hint()` to do a table scan ==but how do you hint for a table scan?==
