@@ -12,7 +12,7 @@ Their approaches are also wildly different:
 * Nix has an immutable [[nix-store]] onto which packages are installed. Building a package is a greatly isolated process: networking is restricted, filesystem access is limited, environment variables are cleared...
 
 ## Pinning versions
-Nix wins at this one by a lot. When using flakes, every package is pinned at the exact version it was in [[nixpkgs]] when it was built. Docker, on the other hand, depends on distribution's repositories, which are always changing. You can work in some ways of pinning dependencies, but these are wildly different from distro to distro, and also time consuming. Nix's flakes do this automatically. Also maybe [[docker/dont-update|not updating repositories helps]] but definitely not a silver bullet.
+Nix wins at this one by a lot. When using flakes, every package is pinned at the exact version it was in [[nixpkgs]] when it was built. Docker, on the other hand, depends on distribution's repositories, which are always changing. You can work in some ways of pinning dependencies, but these are wildly different from distro to distro, and also time consuming. Nix's flakes do this automatically. Also [[os-update|you might be forced to update the repositories]].
 
 There's also some other nuances to consider:
 * Docker's layer identity depends only on the command that was run. (But there is also a [[content-addressable-storage]] model by [[docker/digest]]? I don't know much about it)
