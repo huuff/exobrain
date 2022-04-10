@@ -13,7 +13,7 @@ However, this made companies end up with too many servers, and, compounded with 
 * Also, more physical space was needed to house all those servers
 
 ## Commodity virtualization
-Virtualization was a game changer when "commodity virtualization" came along, that is, virtualization on x86 processors, that were so common, they became a commodity. The process of converting physical servers into virtual instances and putting them all together on a single virtualization-enabled server was called *consolidation*, and had some considerable benefits:
+Virtualization was a game changer when "commodity virtualization" came along, that is, virtualization on [[commodity-hardware]], that were so common, they became a commodity. The process of converting physical servers into virtual instances and putting them all together on a single virtualization-enabled server was called *consolidation*, and had some considerable benefits:
 * Many more applications could fit into a single server, while preserving the advantages of "one application, one server" such as preventing contention through limiting resources to each machine, decoupling and isolation
 * Planning for hardware was much easier, since machines could be moved between servers to optimize the usage of resources
 * Virtual machines were easier to deploy, enabling better High-Availability practices such as replication and failover
