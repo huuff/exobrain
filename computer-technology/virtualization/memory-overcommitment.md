@@ -1,0 +1,2 @@
+# Memory overcommitment
+To better utilize hardware, you can actually assign more memory to your VMs than is actually available in the host. Memory assigned to VMs are only limits, so if it's not needed, it's not used and can be reclaimed by other virtual machines. A good virtualization setup takes into account knowledge of VM's memory usage to overcommit memory and still allow some *headroom* for usage spikes.
