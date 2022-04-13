@@ -1,3 +1,2 @@
 # Take notes on:
-## [[javascript]]
-* `async` and `await`
+No todos left
