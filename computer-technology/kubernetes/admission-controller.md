@@ -16,3 +16,5 @@ You can specify which admission controllers to use when running the [[apiserver]
 ```
   --enable-admission-plugins=NamespaceLifecycle,NodeRestriction,LimitRanger,ServiceAccount,DefaultStorageClass,ResourceQuota
 ```
+
+This concept vaguely reminds me of [[aspect-oriented-programming]]. Where there's also some mutating or side-effect producing aspects and also some validating aspects. It also highly decouples the code from the aspect but also can feel like dark magic.
