@@ -8,4 +8,5 @@ I don't know why and it feels absurd but Kubernetes out of all the software I've
 * Run `systemctl restart kubelet kube-proxy flannel containerd`
 * Run `systemctl restart kube-apiserver kube-controller-manager kube-scheduler`
 * When all else fails, just reboot the host, every host.
-* Reboot anything that can be rebooted and most issues are magically solved.
+* Even when restarting the nodes, pods seem to get scheduled to the same nodes. The solution? Restart the deployment `kubectl rollout restart deploy «deployment»`
+* Restart anything that can be restarted and most issues are magically solved.
