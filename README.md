@@ -1,4 +1,4 @@
-# Exobrain - My personal Zettelkasten
+# README
 A live instance is available [here](https://exobrain.haff.xyz)
 
 ## Is it plagiariasm?
