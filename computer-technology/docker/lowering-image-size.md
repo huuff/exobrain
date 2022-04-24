@@ -1,3 +1,7 @@
+---
+tags: index
+---
+
 # Keeping image size low
 Image size is an obsession in the Docker community! I'm not entirely sure why. Surely, an smaller image can make it easier to distribute and faster to build, but I've seen all sorts of tricks to optimize image size that are hard to pull off and only shave a few megabytes of memory.
 
