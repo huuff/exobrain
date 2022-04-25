@@ -2,7 +2,7 @@
 tags: how-to
 ---
 
-# Advanced YAML features: Anchors, Aliases, Merge
+# YAML features for reuse: Anchors, Aliases, Merge
 ==TODO: Note on merge, it's like a spread operator==
 
 ## Anchors
