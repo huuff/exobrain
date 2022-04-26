@@ -6,7 +6,9 @@ annotations:
   "helm.sh/hook": «events»
 ```
 
-Where `«hooks»` are the events on which the hook will be executed, such as `pre-install`. `post-install`, `pre-delete`, `pre-uprade`, etc. Several of these may be separated by commas
+Where `«hooks»` are the events on which the hook will be executed, such as `pre-install`. `post-install`, `pre-delete`, `pre-uprade`, `[[test]]`, etc. Several of these may be separated by commas.
+
+==Hooks might be very useful, for example, to make a backup of a database before upgrading==
 
 ## Weight
 Hooks can be ordered by specifying a weight: the lower the weight, the earlier it will run.
