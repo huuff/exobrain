@@ -13,7 +13,7 @@ There are only a few instructions available to a Docker build file. These must b
 * `LABEL`: Adds metadata that can then be seen using [[inspect]]. Example: `LABEL maintainer=haf`. You can add several labels by separating them with whitespace
 * `ARG`: Defines an argument that can be passed to the build process by using `--build-arg`. e.g. if you declare `ARG env` then you can do `docker build --build-arg env=dev`
 * `SHELL`: Changes the shell that will be used to run the commands. The default is `["/bin/sh", "-c"]`
-* `HEALTHCHECK`: Specifies a command that will be run periodically to check whether the container is working as intender. You can pass arguments like:
+* `HEALTHCHECK`: Specifies a command that will be run periodically to check whether the container is working as intended. You can then check the health of the container with the `docker ps` command. You can pass arguments like:
   * `--interval=10s` to control how frequently it runs
   * `--timeout`
   * `--retries`

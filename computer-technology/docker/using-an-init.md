@@ -6,4 +6,4 @@ There are many reasons why you'd want to use an init in a Docker image:
 
 It's common practice to add an init process to your container, usually a less resource intensive one than `systemd`, such as `runit`, or `tini` (which is bundled with Docker)
 
-You can specify an init for your container when running it with `docker run --init` ==TODO: An example==
+You can supply the `--init` flag to `docker run` to automatically run the `tini` init inside of it to manage your program.

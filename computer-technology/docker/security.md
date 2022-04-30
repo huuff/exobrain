@@ -12,6 +12,7 @@ These are easily resolved, though:
 
 * [[run-as-user]]
 * [[uid-remapping]]
+* [[run-user-asap]]
 
 Also, other security features are:
 
