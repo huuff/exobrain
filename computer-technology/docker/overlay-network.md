@@ -12,3 +12,6 @@ In [[swarm-mode]] when a node is attached to an overlay network, it isn't immedi
 
 ## Encryption
 By default, Docker encrypts [[control-plane-vs-data-plane|control plane]] traffic only, but data plane traffic is unencrypted unless explicitly specified (at a performance cost)
+
+## No firewall
+For simplicity, overlay networks have no firewall and are completely open between containers. The only access control is attachment or lack of it to the network. This means that to properly isolate and communicate containers you might have to create several networks strategically and attach to the same network containers that are supposed to be able to communicate.
