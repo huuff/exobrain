@@ -13,3 +13,16 @@ Not very reproducible. Every time you install packages in your images, you're le
 * You can use [[digest|digests]]. But:
   * The digest obscures a lot of info, compared to a tag, also  specifying tag and digest makes the tag get ignored as far as I know. [(See this issue)](https://github.com/containers/buildah/issues/1407)
   * I've read somewhere that these are content-addressable? But yet I'm sure they change from repository to repository, so migrating your image from the Docker official registry to quay will break all digests.
+
+## Security
+Pretty bad security defaults, check out [[security]]. But mainly:
+* Containers are run by `root` by default
+* The container's and host's user namespace is shared by default
+
+This essentially makes a compromised container compromise the whole host.
+
+## `COPY` instruction's behavior is very unexpected
+Basically:
+
+* [[copy-ignores-directory-structure]]
+* Any files copied by `COPY` are always owned by `root`
