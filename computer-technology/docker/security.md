@@ -15,6 +15,8 @@ These are easily resolved, though:
 * [[run-user-asap]]
 * [[remove-suid-and-sgid-binaries]]
 
-Also, other security features are:
+Also, other security features/tips are:
 
-* [[capabilities]]
+* [[capabilities|Remove unneeded capabilities]]
+* [[make-topmost-layer-read-only]]
+* [[switching-runtimes|Use a more-secure runtime]] such as [[gvisor]] or [[kata-containers]]
