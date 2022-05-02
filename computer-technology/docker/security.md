@@ -13,7 +13,7 @@ These are easily resolved, though:
 * [[run-as-user]]
 * [[uid-remapping]]
 * [[run-user-asap]]
-* [[remove-suid-and-sgid-binaries]]
+* [[remove-suid-and-sgid-binaries]]. Or maybe even better, run with `--no-new-privileges`
 
 Also, other security features/tips are:
 
