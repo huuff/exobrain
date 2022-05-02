@@ -11,7 +11,7 @@ First, there are a couple of very important caveats you should be aware of:
 These are easily resolved, though:
 
 * [[run-as-user]]
-* [[uid-remapping]]
+* [[docker-user-namespace]]
 * [[run-user-asap]]
 * [[remove-suid-and-sgid-binaries]]. Or maybe even better, run with `--no-new-privileges`
 
