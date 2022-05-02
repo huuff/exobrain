@@ -18,6 +18,7 @@ Not very reproducible. Every time you install packages in your images, you're le
 Pretty bad security defaults, check out [[security]]. But mainly:
 * Containers are run by `root` by default
 * The container's and host's user namespace is shared by default
+* This is pretty obscured, since the user that runs the container might not be root, but being in the `docker` group effectively makes it root.
 
 This essentially makes a compromised container compromise the whole host.
 
