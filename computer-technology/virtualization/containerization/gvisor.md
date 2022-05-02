@@ -12,3 +12,7 @@ It's an executable that allows running OCI-compliant bundles, and it's a fully-c
 
 ## Better isolation
 It provides much better isolation than traditional [[containerization]], one way to check this is that running `ps` from the host, you won't be able to see exactly which processes are running inside the containers (contrary to [[docker]], for example)
+
+## Caveats
+* Not all Linux syscalls are implemented in gVisor, so if your app uses one of these syscalls, then you can't run it on gVisor
+* If the app makes a lot of syscalls, the cost of emulating them might impact performance.
