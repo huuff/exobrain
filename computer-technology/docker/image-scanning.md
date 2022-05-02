@@ -7,3 +7,5 @@ There are many steps at which you could integrate them such as
 * At run-time, for example as a [[admission-controller|Kubernetes admission controller]]
 
 But the best solution is to integrate them with the image registry. This is because new vulnerabilities are constantly discovered, and by they time they are found, your container is already built and running, so a repository integration provides constant check even for older (but maybe still used) images.
+
+Also, scanning images at deployment time might be wasteful of resources, since the same image might be scanned multiple times.

@@ -20,6 +20,7 @@ Also, other security features/tips are:
 * [[capabilities|Remove unneeded capabilities]]
 * [[make-topmost-layer-read-only]]
 * [[switching-runtimes|Use a more-secure runtime]] such as [[gvisor]] or [[kata-containers]]
+* [[app-armor]]
 
 And finally, some other caveats:
 * [[docker-build-dangers]]
