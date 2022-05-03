@@ -1,0 +1,2 @@
+# GlusterFS
+A distributed filesystem that strives to be simple. It exposes the underlying directories as they are and leaves it to the clients to handle high-availability, replication and distribution. Gluster organizes data into logical volumes, which encompass multiple nodes, that contain bricks, which store files. If the cluster is expanded or rebalanced, these bricks can be moved between nodes.
