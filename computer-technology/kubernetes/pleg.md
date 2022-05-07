@@ -1,0 +1,2 @@
+# Pod Lifecycle Event Generator (PLEG)
+An important performance improvement in Kubernetes. Previously, the [[kubelet]] used to poll each container in its own [[goroutine]]. This put a lot of pressure on the container runtime. The solution to this was the *Pod Lifecycle Event Generator*. The PLEG polls the state for all pods and containers in single go, then that state is compared to the previous state and uses the comparison to know which pods need syncing. Then it can sync only these pods.
