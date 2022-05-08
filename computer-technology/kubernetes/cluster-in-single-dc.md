@@ -1,0 +1,2 @@
+# Kubernetes clusters are meant to be in a single data center or availability zone
+It's very important to have this into account. The efficiency of the cluster depends on it being connected through a fast network. When a more distributed cluster is needed, you'll have to use [[cluster-federation]], but that's an entirely different beast: latency is no longer so easily dismissed and location is no longer so transparent.
