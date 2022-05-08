@@ -1,5 +1,5 @@
 # `ResourceQuota`
-Allows defining resource limits for a [[namespace]]. The presence of a `ResourceQuota` prevents creating objects that might violate it. Having a resource quota means that all created resources must have specified limits.
+Allows defining resource limits for a [[namespace]]. The presence of a `ResourceQuota` prevents creating objects that might violate it. Having a resource quota means that all created resources must have specified limits. You can provide defaults through a [[limit-range]].
 
 ## Example
 ```yaml
