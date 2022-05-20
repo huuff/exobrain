@@ -10,6 +10,7 @@ Some examples:
 * `LimitRanger`: Rejects requests that violate resource limits
 * `NamespaceAutoProvision`: Creates the [[namespace]] in the request if it doesn't exist already
 * `NamespaceLifecycle`: Rejects object creation requests in namespaces that are in the process of being terminated or don't exits
+* [[node-restriction]]
 
 You can specify which admission controllers to use when running the [[apiserver]] with the `--enable-admission-plugins` flag. e.g.:
 
