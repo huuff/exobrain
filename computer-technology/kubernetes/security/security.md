@@ -13,4 +13,5 @@ tags: index
 * [[pod-security-policy]] was one way of preventing bad defaults and it got deprecated [in a careless way](https://www.macchaffee.com/blog/2022/psp-deprecation/)
 * Kubernetes used no default [[seccomp]], [[apparmor]] or [[selinux]] policies, even though your container runtime does (`containerd` for example). This is highly counterintuitive since any containerization user is already used to having default [[lsm]] profiles.
 * [[disable-anonymous-auth]]: Another insecure default. Kubernetes allows unauthenticated users at least API discovery.
+* [[encrypt-data-at-rest|Secrets stored in plaintext by default]]
 
