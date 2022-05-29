@@ -1,6 +1,8 @@
 # Pod
 The unit of workload in Kubernetes. A pod is composed of several containers which share the same [[linux/namespace|network namespace]] (therefore, they have the same IP) and UTS namespace (therefore, they can communicate through inter-process communication). All containers in a pod are deployed together to the same node.
 
+Actually, behind the scenes, the pod is composed of the [[pause-container]] and any other containers provided in the pod's manifest.
+
 ### Why pods?
 Makes it easy to separate into several containers applications that are meant to be together but that have different operational requirements, for example, their resource requirements might be very different and thus we want to isolate them and specify each one, so a [[sidecar-container]] cannot starve from resources its main container.
 
