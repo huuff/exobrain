@@ -1,5 +1,7 @@
 # `PodDisruptionBudget`
-A kind of resource that tries to limit the number of [[pod]]s unavailable at any point in time. It ensures that a percentage of pods are not evicted voluntarily, that is, through scaling down or draining a node (`kubectl drain`)
+A kind of resource that tries to limit the number of [[pod]]s unavailable at any point in time. It ensures that a percentage of pods are not evicted voluntarily, that is, through scaling down or draining a node (`kubectl drain`).
+
+This feature is especially useful for database applications that need to maintain a minimum number of instances available to keep its quorum.
 
 ### Example
 ```yaml

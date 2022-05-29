@@ -7,5 +7,9 @@
 
 A stateful set is usually used with a [[headless-service]]
 
-## "replicas"
+### "replicas"
 It's unfortunate that the number of members is called `replicas` just as in a [[deployment]] since in a `SatefulSet`, every member has its own identity and might not really be a replica.
+
+## Other features
+* *Partitioned updates*: By specifying `.spec.updateStrategy.rollingUpdate.partition` to a number (by default `0`) it'll determine from which instance the pods will be updated. Only pods with ordinals above the specified number will be updated, and all below it will remain the same.
+* *Parallel deployments*: When setting `.spec.podManagementPolicy` to `Parallel` you can ensure that all pods be started in parallel instead of in order.
