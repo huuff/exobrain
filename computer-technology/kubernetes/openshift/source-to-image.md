@@ -9,4 +9,4 @@ An S2I builder image is a standar container image that contains S2I scripts, the
 ## Drawbacks
 It allows incremental builds by allowing `assemble` artifacts to be used by another S2I script, however, this requires copying a lot of artifacts from one build to another and the performance benefits are usually not that significative.
 
-Also, unfortunately a S2I built image contains the whole build environment, which isn't especially good for image size or performance. To improve on this, OpenShift also offers chained builds.
+Also, unfortunately a S2I built image contains the whole build environment, which isn't especially good for image size or performance. To improve on this, OpenShift also offers [[ [[chained-builds]]

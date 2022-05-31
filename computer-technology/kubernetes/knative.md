@@ -3,6 +3,6 @@ A project that aims to provide FaaS/[[scale-to-zero]] capabilities to Kubernetes
 
 There are two main Knative projects
 
-* [[knative-serving]]
-* [[knative-eventing]]
-* There used to be a Knative building, but it's been factored out as [[tekton]]
+* [[knative/serving]]
+* [[knative/eventing]]
+* There used to be a [[knative/build]], but it's been factored out as [[tekton]]
