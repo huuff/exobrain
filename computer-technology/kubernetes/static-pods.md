@@ -1,0 +1,2 @@
+# Static pods
+There's a way to run pods automatically bypassing the scheduler. Pods declared in a `manifests` directory (I think it's usually under `/etc/kubernetes/manifests`) can be started automatically by the [[kubelet]]. Pods defined in this way run only on the same node as they were started in, there is no controller for them and no ealth checks, the `kubelet` watches them and restarts them when they crash.

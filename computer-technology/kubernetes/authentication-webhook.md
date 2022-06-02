@@ -1,0 +1,2 @@
+# Authentication webhook
+Kubernetes allows using a separate service for providing authentication through bearer tokens. You only have to specify the `--authentication-token-webhook-config-file` and `--authentication-token-webhook-cache-ttl` arguments to the API server. The config file is a normal kubeconfig file (the one that authorizes you to use `kubectl`), where you fill in the `clusters.cluster.server` property with the URL of the authentication service.
