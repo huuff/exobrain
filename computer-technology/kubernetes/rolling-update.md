@@ -20,3 +20,6 @@ But there are some cases where absolute number will be preferred, such as specif
 
 ## HA by default
 Kubernetes will always try to make the system as available by default which means that `maxSurge` will be created before `maUnavailable` are removed.
+
+## A caveat for databases
+Obviously, if two instances of two different versions are running at the same time and using the same database, it means that the database schema must support both versions of the application.
