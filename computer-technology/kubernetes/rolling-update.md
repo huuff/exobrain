@@ -1,5 +1,7 @@
 # `RollingUpdate`
-It updates a few pods at a time, creating new pods in the updated version while removing older ones little by little. It has a few important settings:
+It updates a few pods at a time, creating new pods in the updated version while removing older ones little by little. The process of rolling update is controlled by the deployment [[controller]].
+
+It has a few important settings:
 
 * `maxUnavailable` the maximum number of pods that will be unavailable during the rollout. The rollout will scale the old [[replica-set]] to remove the `maxUnavailable` pods until all pods are replaced.
 * `maxSurge` the maximum number of pods that can be above the specified replica number. The rollout will scale the new [[replica-set]] by this amount until all pods are replaced.
