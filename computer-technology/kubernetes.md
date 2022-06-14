@@ -7,7 +7,7 @@ Kubernetes is a container orchestration platform that allows managing a cluster 
 
 * Scaling: Services can be scaled to several replicas without worrying about the deployment of these. This can even be automated through an [[hpa]]
 * Self-healing: Workloads that are down are automatically replaced by new ones.
-* Load balancing: Load is automatically and transparently sent to the appropriate replicas without knowledge of how many there are or where they are.
+* Load balancing: Load is automatically and transparently sent to the appropriate replicas without needing any knowledge of how many there are or where they are.
 * Service discovery: An internal DNS allows discovering services by name, transparently to their location.
 * Automated rolling updates: Kubernetes ensures a new version of a service is correctly working before removing the old one.
 
@@ -37,3 +37,9 @@ These are the processes that make Kubernetes
 * [[kube-proxy]]: Routes packets to the [[pod]]s
 * [[kube-controller-manager]]: Has most of the built-in [[controller]]s.
 * [[kube-scheduler]]
+
+## Best practices and recommendations
+* [[security|Security recommendations]]
+* [[set-requests-and-limits]]
+* [[versioned-config-map]]
+* [[read-only]]

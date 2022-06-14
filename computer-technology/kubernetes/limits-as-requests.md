@@ -1,5 +1,5 @@
 ---
-tags: best-practice
+tags: pattern
 ---
 
 # Set the resource limits as the same values as requests

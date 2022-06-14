@@ -18,3 +18,5 @@ These are true as of 1.24.
 * [[disable-automount-service-account-token]]
 * [[disable-anonymous-auth]]
 * [[encrypt-data-at-rest]]
+* [[always-pull-images]]
+* [[read-only|Make read-only everything you can]]
