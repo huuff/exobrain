@@ -5,4 +5,6 @@ There is a federation control plane that will present a single unified view of t
 
 In practice, cluster federation is a very complex topic and it can't be entirely abstracted away. Without careful planning and configuration, a single request may incur in huge unexpected increases in latency.
 
-The key to federated cluster management (least using the KubeFed API) is the `kubefedctl` command, usually aliased to `kf`
+Some solutions to this are:
+* [[kubefed]]: It's the official (I think) solution for cluster federation, it's managed through the `kubefedctl` command, usually aliased to `kf`. KubeFed is not necessarily about cluster management, but more about increasing availability through [[federated-api-type|federated API types]]
+* [[gardener]]: A very mature solution from SAP to federate clusters, aimed at cloud providers.
