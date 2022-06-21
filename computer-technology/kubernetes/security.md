@@ -15,6 +15,7 @@ These are true as of 1.24.
 
 ## How to solve it
 * [[security-context|Use an appropriate container and pod security context]]
+* (As a follow-up to the previous one): [[running-as-non-root|Try to run your pods as non-root]]
 * [[disable-automount-service-account-token]]
 * [[disable-anonymous-auth]]
 * [[encrypt-data-at-rest]]
