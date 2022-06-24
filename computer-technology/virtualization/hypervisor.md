@@ -4,4 +4,7 @@ An emulation layer that sits between the guest OS and the hardware for [[virtual
 * Coordinating access to these resources by several machines
 * Imposing limits on these resources
 
-And actually many more virtual machine management features.
+And many more virtual machine management features.
+
+## Other names
+* These are usually also called *Virtual Machine Monitors (VMM)*. Perhaps that's even more commonly used.
