@@ -15,7 +15,7 @@ Some examples:
 * [[event-rate-limit]]: Prevents flooding the API
 * [[admission-webhooks]]: `MutatingAdmissionWebhook` and `ValidatingAdmissionWebhook`
 
-You can specify which admission controllers to use when running the [[apiserver]] with the `--enable-admission-plugins` flag. e.g.:
+You can specify which admission controllers to use when running the [[kube-apiserver]] with the `--enable-admission-plugins` flag. e.g.:
 
 ```
   --enable-admission-plugins=NamespaceLifecycle,NodeRestriction,LimitRanger,ServiceAccount,DefaultStorageClass,ResourceQuota
