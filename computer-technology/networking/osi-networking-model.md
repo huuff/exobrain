@@ -6,3 +6,5 @@ A 7-layered approach to modelling the networking stack, although modern implemen
 * Layer 3 is the IP layer, is the one in which packets travel and IP routers operate.
 * Layer 2 is where data packets are addressed to endpoints that are connected to network physical or virtual interfaces. There are several protocols at this layer like ethernet and wi-fi. This is the layer at which MAC addresses operate
 * Layer 1 is called the physical layer, it's where a physical interface is connected to some physical cable through which the data travels.
+
+The OSI model was meant to be a protocol suite to power networks, but TCP/IP won the protocol battle.
