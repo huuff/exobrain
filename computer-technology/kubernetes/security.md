@@ -14,6 +14,7 @@ These are true as of 1.24.
 * By default, secrets are stored in plaintext.
 
 ## How to solve it
+* [[audit-logs-security|Audit logs might be bypassed or tampered with, so you should send them to a remote location]].
 * [[security-context|Use an appropriate container and pod security context]]
 * (As a follow-up to the previous one): [[running-as-non-root|Try to run your pods as non-root]]
 * [[disable-automount-service-account-token]]
@@ -23,3 +24,7 @@ These are true as of 1.24.
 * [[read-only|Make read-only everything you can]]
 * [[set-requests-and-limits]]: At least prevents denial of service attacks where one pod starves the others
 * Set some policies to enforce any of these points, for example consider [[gatekeeper-vs-kyverno|Gatekeeper or Kyverno]]
+
+## Known vulnerabilities
+* [[cve-2020-8554]] can be used to intercept cluster traffic to some IP.
+* [[net-raw-dangers]]

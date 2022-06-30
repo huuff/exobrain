@@ -14,3 +14,5 @@ To add a process to a `cgroup` it's simply a matter of adding its PID to the `cg
 
 ## `cgroups` V2
 A newer version. A most notable feature is that a process cannot join multiple `cgroups` for different controllers. I've heard that `cgroups` V2 is essential to the development of [[rootless-containers]], but I don't know specifically what feature of it makes it possible.
+
+Also, `cgroups` V2 is more secure than V1 because there are [known escape attacks on V1](https://web.archive.org/web/20220122090123/https://blog.trailofbits.com/2019/07/19/understanding-docker-container-escapes/)
