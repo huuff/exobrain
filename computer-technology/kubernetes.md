@@ -39,7 +39,7 @@ These are the processes that make Kubernetes
 * [[kube-scheduler]]
 
 ## Best practices and recommendations
-* [[security|Security recommendations]]
+* [[kubernetes/security|Security recommendations]]
 * [[set-requests-and-limits]]
 * [[versioned-config-map]]
 * [[read-only]]

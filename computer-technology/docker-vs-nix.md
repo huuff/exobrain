@@ -2,8 +2,8 @@
 tags: comparison
 ---
 
-# [[docker]] vs [[nix]]
-Docker and Nix are completely different tools with different goals and principles in mind, but both have an overlap when it comes to achieving reproducibility:
+# Docker vs Nix
+[[docker]] and [[nix]] are completely different tools with different goals and principles in mind, but both have an overlap when it comes to achieving reproducibility:
 * An application or whole stack can be made into a Docker image and then a reproducible container can be created from it every time
 * An application can be made into a Nix package ([[derivation]]) which has very high reproducibility guarantees. A whole stack can be made into a [[nixos]] `configuration.nix` which is also very reproducible.
 
