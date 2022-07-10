@@ -1,8 +1,6 @@
 # `oplog`
 MongoDB's mechanism for replication. Every operation the master performs is written to the `oplog` before. The secondaries query the `oplog` for any new data and write it to their own `oplog`. Since each secondary mantains its own `oplog` any of them can be used as a replication source.
 
-==Is this a [[write-ahead-log]]?==
-
 ## How it stores operations
 Not every operation equates a single entry in the `oplog`. The operations in the `oplog` must be [[idempotency|idempotent]], therefore, operations that affect multiple documents are exploded into one operation for each document, so each of them can be replicated independently. 
 
