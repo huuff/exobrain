@@ -1,3 +1,7 @@
+---
+tags: definition
+---
+
 # Reified generic parameter
 In Kotlin, type parameters can be *reified* only inside an [[inline-function]]. This means that we can actually access the passed generic type in runtime, contrary to [[java]], where it's erased. To mark a type parameter as reified, you add the `reified` modifier
 
