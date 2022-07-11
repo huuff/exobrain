@@ -1,3 +1,7 @@
+---
+tags: definition
+---
+
 # Multikey index
 A multikey index is one that is generated on a field which contains an array for *any* document in the collection. Multikey indexes create an index entry for each element of the array. This makes them much more expensive than normal indexes because a single operation might incur in the updating of potentially much many more index entries.
 
