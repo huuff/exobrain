@@ -11,5 +11,6 @@ Kotlin improves so much on Java:
 * Closures!! So absurdly useful. In Java every variable used in a lambda must be "effectively final" which means that the stuff you can do inside a lambda is very limited
 * [[reified-generic]]s: A lot of stuff in java cannot be done without the ugly workaround of passing the class of some element as a parameter to a function, this mixes the type space with the variable space. Also, since it's generic, this allows inferring that parameter.
 * The `Nothing` type, a [[bottom-type]] that represents code that should never be reached. It allows cool stuff like the [[kotlin/todo]] function, that allows stubbing methods to do [[tdd]] without the compiler complaining constantly.
+* The `internal` visibility modifier. It provides the isolation of `private`, while still allowing testing it withing the same module. In Java, you have to resort to [[package-private]], which means that the test must be in the same package, and doesn't really provide much isolation since you can always put some declaration in the same package to access it.
 
 ==TODO: Give a couple of real examples for closures and reified generics==
