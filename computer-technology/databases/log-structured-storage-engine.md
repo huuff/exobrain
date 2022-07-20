@@ -5,6 +5,8 @@ tags: definition
 # Log-Structured Storage Engine
 In these storage engines, all data is appended to a [[log]], called a [[segment]]:
 
+==TODO: Use the same format as for B-Tree, starting with writing since it's best to understand.==
+
 * Data is never deleted from the log (that's why it's a log), so only new writes are appended to the end of the log.
 * When reading, we need to traverse all segments from the latest one until we find the first one that contains the value.
 * Instead of deleting a value, a special entry is added (a [[tombstone]]), that marks that value for deletion.
