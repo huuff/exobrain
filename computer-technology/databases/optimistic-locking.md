@@ -1,7 +1,7 @@
 # Optimistic locking
 (A misnomer, since there is no locking involved)
 
-A technique for ensuring [[isolation]] in [[application-level-transaction]]s. The process is kind of like:
+A technique for ensuring [[isolation]] in transactions. The process is kind of like:
 
 * Database rows include a version column
 * This version is increased on every modification

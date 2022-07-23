@@ -1,5 +1,5 @@
 # Relationship
-An association between [[entity]]es. Relationships are grouped in *relationship sets*
+An association between [[entity|entities]]. Relationships are grouped in *relationship sets*
 
 ## Concepts
 * [[participation]]
