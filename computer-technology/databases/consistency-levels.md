@@ -3,7 +3,7 @@ tags: index
 ---
 
 # Consistency levels
-*For [[consistency-cap]] as in [[cap]]*
+*For [[consistency-cap]] as in [[cap-theorem]]*
 
 ==TODO: Must fix this, as my explanation of causal consistency and sequential consistency are almost the same, and also I must fill each note referenced==
 
