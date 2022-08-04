@@ -7,3 +7,7 @@ SQL-92 introduces 4 isolation levels depending on which standard [[phenomenon|ph
 * Read committed: Also [[dirty-read]]s are prevented
 * Repeatable read: Also [[non-repeatable-read]] is prevented
 * Serializable: Also [[phantom-read]] is prevented (See [[serializable]])
+
+Additionally there are other, more pragmatic isolation levels that database vendors introduce such as:
+
+* [[snapshot-isolation]]: Ensures all of a transacion happens on a stable (unchanging) snapshot of the database.
