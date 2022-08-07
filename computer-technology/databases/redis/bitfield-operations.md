@@ -5,5 +5,9 @@ As [[bitmap-operations]] treat strings as arrays of bits, bitfield operations tr
 * `BITFIELD set «type» «offset» «value»`
 
 Parts of these commands you should take into account:
-* `«type»` is the type of the integer we can store, for example, `u8` is an unsigned int of 8 bits.
-* `«offset»` is the position of this field if all previous fields were of the same size, for example `BITFIELD get u8 2` returns the 8 bits after two fields of 8 bits, that is, the 8 bits starting from bit 16.
+* `«type»` is the type of the integer we can store, for example, `u8` is an unsigned int of 8 bits. It's composed of:
+  * The first letter is the type: `u` for unsigned integer and `i` for signed integer
+  * The following integer is the size of the type.
+* `«offset»` is the position of this field, two notations are possible here:
+  * `#«position»` returns the specified offset multiplied by the size of the bitfield, for example `BITFIELD get u8 #3` returns the third 8-bit field
+  * `«position»` returns the value from the specified offset, for example `BITFIELD get u8 3` returns the 8 next bits starting bit the third bit.
