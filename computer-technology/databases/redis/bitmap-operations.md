@@ -10,6 +10,8 @@ Redis does not actually have a bitmap data structure, but strings can have bitma
 
 The benefit of bitmaps is that they are very space-efficient to represent binary options. Where other data structures require us to store some larger objects, a bitmap only needs a bit for every single instance to decide whether the event we observe happened or not.
 
+Bitmap operations are equivalent to [[bitfield-operations]] using a size of 1.
+
 ### Example
 The canonical example is storing unique visits: if we want to store whether each user visited our site on a specific day `visited:«date»` we have two choices:
 
