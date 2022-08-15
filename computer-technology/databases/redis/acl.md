@@ -5,4 +5,10 @@ ACL has very special syntax such as
 
 `ACL SETUSER «username» ON «pattern of accessible keys» +«commands» >«password»`
 
-Note that the `ON` part of the command specifies that this user is enabled (as in `ON/OFF`).
+Some syntax quirks:
+* `>` specifies a plaintext password
+* `#` specifies a hashed password
+* `ON/OFF` specifies whether this user is enabled/disabled
+* `+` indicates allowed commands
+* `-` means disallowed commands
+* `@` is for groups of things (users, commands?) I believe. Like [[redis/dangerous-commands|`@dangerous`]]
