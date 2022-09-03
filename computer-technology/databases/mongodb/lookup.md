@@ -1,6 +1,8 @@
 # `$lookup`
 This is an [[aggregation-framework]] stage that allows us to perform an operation similar to a [[sql/join|relational database join]]
 
+==TODO: This syntax is older... it's easier now with `localField` and `foreignField`==
+
 ### Syntax
 ```js
 {
