@@ -3,8 +3,6 @@ tags: index
 ---
 
 # Consistency levels
-*For [[consistency-cap]] as in [[cap-theorem]]*
-
 ==TODO: Must fix this, as my explanation of causal consistency and sequential consistency are almost the same, and also I must fill each note referenced==
 
 * Eventual consistency: No guarantees are made to any order of operation. The only guarantee is that if there are no writes to the database for a "long" time, eventually all clients will be able to see the latest writes.
