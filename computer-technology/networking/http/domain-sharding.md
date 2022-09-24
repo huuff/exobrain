@@ -1,0 +1,2 @@
+# Domain Sharding
+A technique invented to overcome browser limitations of 6 concurrent connections to a single domain under [[http1.1]] (now considered mostly an antipattern for [[http2]]). In it, the server hosts resources distributed across several subdomains, so the browser is allowed to create more than 6 connections to serve these. This also allowed having domains that didn't receive cookies or other heavyweight [[http/header|headers]] the browser sends automatically.
