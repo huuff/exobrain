@@ -22,17 +22,7 @@ Some added feaures:
 
 This one pushed the specification to 60 pages, but it still contained some ciritical flaws such as the lack of ability to do [[virtual-hosting]] and to keep a connection open.
 
-### HTTP/1.1
-A release that came shortly after HTTP/1.0 and lived for 20 years before HTTP/2.0 came by. It included
-
-* An extension of cacheability headers
-* An `OPTIONS` method
-* The `Upgrade` header
-* [[range-request]]
-* Compression with [[transfer-encoding]]
-* Pipelining
-
-The connection directives were especially important for performances as they allowed pipelining and reusing connections.
+![[http1.1]]
 
 ### HTTP-NG
 It was a project to improve on HTTP/1.1. ==I've lost my highlights on this one...==
