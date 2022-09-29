@@ -24,7 +24,7 @@ These are the main resources that allow defining the main functionality of Kuber
 * [[pod]]: The most basic unit of work in Kubernetes, composed of one or more pods
 * [[replica-set]]: Manages several replicas of a [[pod]]
 * [[deployment]]: Manages a [[replica-set]] and provides [[rolling-update]] features
-* [[service]]: Provides service discovery and load balancing to the workload
+* [[kubernetes/service]]: Provides service discovery and load balancing to the workload
 * [[job]]: A workload that's run only once to completion
 * [[cron-job]]: A [[job]] that's run periodically
 * [[daemon-set]]: A workload that must run on every server in the cluster
