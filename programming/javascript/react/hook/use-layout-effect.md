@@ -1,0 +1,2 @@
+# `useLayoutEffect`
+It's identical to the [[use-effect]] hook, but fires synchronously after all DOM mutations are completed and before the element is rendered to the browser. It can be used to read DOM information and adjust appearance before rendering. This hook blocks rendering, and thus `useEffect` should be preferred, except in the case when the DOM changes that are applied in `useEffect` cause the DOM to flicker.
