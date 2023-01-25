@@ -13,5 +13,6 @@ I always carry a lot of stuff in my backback that, over the time, has proven to 
 * A small mirror: Also always useful to check whether I'm looking unkempt. Also for getting lashes out of my eyes.
 * Moisturizing cream: For my hands or my face, since I might have dermatitis.
 * Sunscreem: I always forget to carry it, so it's safer to always have one at the bottom of the backpack.
+* Surgical face masks: After covid, these are mandatory at some places (hospitals, public transportation). The fact that they aren't required almost anywhere else makes them so, so easy to forget. So it's better to always carry a few around, just in case you need to use public transportation.
 * Extra clothes (at least a t-shirt): Also very necessary in case it's cold, lose some, or someone else needs it. This is harder to carry however, so maybe just for the car's trunk.
 
