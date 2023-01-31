@@ -15,3 +15,11 @@ All concrete classes' attributes are spread over a single table. An instance of 
 
 #### Joined
 Each subclass gets its own table (like for Table per Class), but the superclass also gets a table. Polymorphic queries are possible by joining the tables of the subclasses.
+
+
+### Choosing a strategy
+You have to consider how often will polymorphic queries be needed (querying for the superclasses), whether we have associations to superclases and whether subtypes have many attributes additional to supertypes, or only differ in behavior.
+
+* If we don't need polymorphic queries nor associations, lean towards *Table per Class*. Even though polymorphic queries won't be optimal, it'll be easy to switch to a strategy that allows them.
+* If we need polymorphic queries or associations and subtypes have relatively few additional properties to their supertypes (they differ mainly in their behavior), lean towards *Single table*. This will have the least downsides if the number of nullable columns is low.
+* If we need polymorphic queries or associations and subtypes may have many additional properties (they differ mainly in the data they hold), lean towards *Joined* or *Table per Class* depending on the depth and width of the inheritance hierarchy.
