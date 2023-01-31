@@ -1,3 +1,7 @@
+---
+tags: tips
+---
+
 # Mapping Inheritance
 Inheritance is a main feature of object oriented languages, which is also outside of the scope of the relational model. Thus, ORM framewors must be really smart around mapping inheritance so the end result feels natural.
 
