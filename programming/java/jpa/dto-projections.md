@@ -8,7 +8,7 @@ Simply a POJO created from a row or set of rows. It's recommended to prefer fetc
 * You can select only the attributes you need (Although there is some lazy-loading mechanism to do this with entities too in Hibernate)
 * These are not managed by Hibernate, so they are not in the cache, not dirty-checked, etc. So it's faster.
 * Can actually make them immutable!
-* You can use the whole expressive power of native SQL queries.
+* You can be closer to the native SQL query
 
 ## Ways of doing it
 
