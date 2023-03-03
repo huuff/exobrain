@@ -7,3 +7,4 @@ I actually don't like Spring Data Redis, I use my own Kotlin library "siths", bu
 
 * Integration with JMS for the pub/sub mechanism
 * Integration with Spring Cache Abstraction
+* [[spring-data/redis-atomic-counters]]
