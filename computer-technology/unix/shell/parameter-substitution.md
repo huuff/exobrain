@@ -13,3 +13,7 @@ A nice rule of thumb for remembering it: the `#` symbol is usually used at the l
 
 ### Example
 If your `$HOME` is `/home/haf` then `${HOME##*/}` would give just `haf`
+
+## Text substitution
+* `${var/«pattern»/«replacement}` replaces the first occurrence of `«pattern»` with `«replacement»`
+* `${var//«pattern»/«replacement»}` replaces *all* occurrences of `«pattern»` with `«replacement»`
