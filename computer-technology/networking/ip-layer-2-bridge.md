@@ -3,7 +3,7 @@ tags: how-to
 ---
 
 # Set up a direct connection through layer 2 bridge using IP
-Needed hard it for connecting a virtual machine with an IP on a different subnet than the host.
+Needed it hard for connecting a virtual machine with an IP on a different subnet than the host.
 
 ```
 ip route add <gateway network IP>/<mask> dev <interface on which it should be reachable>
