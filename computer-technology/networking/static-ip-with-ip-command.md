@@ -9,6 +9,8 @@ First, add the static IP
 sudo ip addr add <ip> dev <interface>
 ```
 
+(You should add the IP mask, likely /32)
+
 Then add the gateway
 
 ```
