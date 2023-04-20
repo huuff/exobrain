@@ -1,5 +1,5 @@
 # Transitive vs Intransitive pairs of verbs
-In german there are some pairs of verbs that are like opposites [[transitivity|in terms of transitivity]]. They are almost the same but have subtle differences.
+In german there are some pairs of verbs that are like opposites [[verb-transitivity|in terms of transitivity]]. They are almost the same but have subtle differences.
 
 ### Examples
 * *liegen* vs *legen*: To lay *something* off vs to be laying
