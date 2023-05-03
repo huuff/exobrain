@@ -2,7 +2,7 @@
 tags: definition
 ---
 
-# Eszett (ß)
+# Eszett or Scharfes S (ß)
 A german letter that has the sound of a double s ("ss") (and replaced by it in some dialects such as swiss german). It's used in two cases
 
 * When following a [[german-diphthongs|diphthong]].
