@@ -27,3 +27,9 @@ Some suffixes imply specific genders for nouns, so memorizing them makes it simp
 * *-ade* like *die Marmelade*
 * *-age* like *die Garage*
 * *-anz* like *die Eleganz*
+* *-enz* like *die Existenz*
+* *-ik* like *die Kritik*
+* *-ion* like *die Diskussion*
+* *-tät* like *die Identität*, *die Qualität*
+* *-ur* like *die Reparatur*, *die Agentur*
+
