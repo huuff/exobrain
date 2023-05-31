@@ -1,8 +1,7 @@
-# Partizip II
+# Partizip II (Past Participle)
 Used for the [[perfekt]] ==and others, find them==.
 
 ## Construction
-
 ### Regular verbs without a prefix
 *ge* - «VERB STEM» - *(e)t*
 
@@ -30,3 +29,8 @@ benutzen -> benutzt
 
 #### Examples
 studieren -> studiert
+
+## Irregular verbs
+There are some rules and tips:
+
+* [[ieren-suffix-partizip-zwei]]
