@@ -2,7 +2,7 @@
 You can sort of understand your current git environment based in three different trees (where trees are understood as a set of files):
 
 * The working directory is some sort of sandbox, where you can actually modify the contents of files to decide what is to be committed.
-* The index, or staging area is where you actually set files to be contained in the next commit.
+* The [[staging-area]] (or index) is where you actually set files to be contained in the next commit.
 * The HEAD is the commit who's going to be the parent of the next commit you make.
 
 Then you can understand some commands as transitioning from one tree to the other:
