@@ -3,7 +3,10 @@ tags: definition
 ---
 
 # Rebase
-A rebase is like a merge, with the most easily notable difference that it doesn't create a merge commit. Rebase applies any sequence of changes in one branch on top of another to create a sequential history, instead of merging both branches into a single one with a merge commit with two parents.
+There are two different versions of what a rebase is, and both share in common the fact that they modify existing commits:
+
+* Rebasing one branch onto another means reapplying all commits made on the first branch on top of the other one. A key difference with a merge is that it doesn't create a merge commit, and thus the resulting history is linear (no commit has more than one parent) and simpler.
+* Rebasing already made commits of a branch. (with interactive rebase for example?) reapplies these commits, allowing modifications to them in terms of content, commit messages, squashing several commits into a single one, etc.
 
 ### Example
 Suppose you're working on a branch named `feature`, and `master` has commits not on `feature`. Then to catch up you just do:
