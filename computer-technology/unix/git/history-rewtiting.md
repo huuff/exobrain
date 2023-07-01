@@ -5,6 +5,7 @@ Git allows changing the published history through certain commands such as:
 
 * [[rebase]]
 * [[amend]]
+* [[filter-branch]]
 
 This has several benefits:
 
