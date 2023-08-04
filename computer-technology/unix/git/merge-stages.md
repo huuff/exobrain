@@ -1,5 +1,5 @@
 # Merge Stages
-During a [[git/merge]], git stores all three versions of your files (at least, during a three-way merge) in "stages":
+During a [[git/merge]], git stores all three versions of your files (at least, during a [[three-way-merge]]) in "stages":
 
 * Stage 1 is the common ancestor of both branches
 * Stage 2 is your version ([[git/head]]) (`ours`)
