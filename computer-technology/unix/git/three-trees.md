@@ -3,7 +3,7 @@ You can sort of understand your current git environment based in three different
 
 * The working directory is some sort of sandbox, where you can actually modify the contents of files to decide what is to be committed.
 * The [[staging-area]] (or index) is where you actually set files to be contained in the next commit.
-* The HEAD is the commit who's going to be the parent of the next commit you make.
+* The local repository is the full history of all commits already stored in the project.
 
 Then you can understand some commands as transitioning from one tree to the other:
 
