@@ -1,4 +1,5 @@
 # `Date`
+==TODO: The `Date` object is pure hell, I should collect more problems==
 The object that represents a date in [[javascript]]. `new Date()` gives the current date.
 
 ### Inconsistency
